@@ -1,0 +1,60 @@
+@import "~node_modules\bootstrap\dist\css\bootstrap.css";
+
+
+
+
+
+
+
+
+.edit-style{
+    
+   margin-top:-2.5vh;
+   
+}
+
+/* for side nav bar*/
+
+.vert-style>ul{
+    
+    
+    background-color:#563d7c;
+    width:17%;
+    margin-left:-8px;
+    margin-top:-30px;
+    
+    height:542px;
+}
+
+.custom-css>li>a{
+    color: white;
+}
+
+
+/*--*/
+
+
+/* cards */
+.cards-design{
+padding-left:20%;
+margin-top:-70vh;
+overflow: hidden;
+}
+
+
+/*scroll*/
+
+.scroll-edit{
+    padding-left:20%;
+   
+    height:80px;
+    
+}
+
+.scroll-edit2{
+    margin-left:-15px;
+    height:170px;
+    border:1px solid #428bca;
+    border-radius:5px;
+    
+}

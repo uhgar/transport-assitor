@@ -1,0 +1,74 @@
+@import "~node_modules\bootstrap\dist\css\bootstrap.css";
+
+
+.navbar{
+    margin:-8px -8px 0px -8px;
+}
+
+
+.navi nav a:hover{
+    background-color: red;
+    text-decoration: none;
+    
+    
+}
+
+
+h5{
+    color:#5a5a5a;
+}
+
+.list-group .list-group-item {
+    background-color: #242326;
+    border:0px;
+    color:white;
+    padding:3px;
+  }
+
+  
+  a{
+      color:white;
+  }
+
+  
+
+  
+
+
+  .work{
+  box-sizing:border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+
+  .work-p{
+      font-size:22px;
+      text-align: left;
+      
+  }
+
+.demo-align{
+    margin-top:140px
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 560px;
+}
+.carousel-inner img{
+    width:100%;
+    height: 100%;
+}
+
+.con{
+    
+    
+}
+
+#contact{
+    margin: 10px -8px -9px -8px;
+}
+
+body{
+    padding-top:100px;
+}

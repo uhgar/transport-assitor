@@ -1,0 +1,31 @@
+@import "~node_modules\bootstrap\dist\css\bootstrap.css";
+
+   
+
+
+.explain{
+    font-family: Gotham-Light,Arial, Helvetica, sans-serif;
+    color:#a79344;
+    font-size:1.5em;
+
+}
+
+
+
+.iborder{
+     padding-top:20px;
+     padding-bottom:20px;
+     border-top:3px solid #f86e76;
+     border-bottom:3px solid #f86e76;
+}
+
+.arts{
+    
+    font-family: Gotham-Light,Arial, Helvetica, sans-serif;
+    font-size:1em;
+    border-radius:50%;
+    background-color:blue;
+    color:white;
+    padding:5% ;
+
+}

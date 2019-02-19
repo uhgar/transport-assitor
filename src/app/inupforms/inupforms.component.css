@@ -1,0 +1,25 @@
+@import "~node_modules\bootstrap\dist\css\bootstrap.css";
+
+
+.bg{
+    
+    background: url('/../assetss/download5.jpg') no-repeat;
+    width:100%;
+    height:40vh;
+    
+}
+
+.form-container{
+    border:1px solid #fff;
+    padding:50px 60px;
+    margin-top:20vh;
+    -webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+     box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+
+}
+
+
+
+
+

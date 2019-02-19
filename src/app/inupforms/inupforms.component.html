@@ -1,0 +1,82 @@
+<!-- <div id="main1">
+<div class="container">
+  <form>
+    <div class="form-group">
+       <label for="inuserName" >Username</label>
+       <input type="text" class="form-control"  id="inputId" placeholder="Username">
+    </div>
+
+    <div class="form-group">
+      <label for="inuserPwd">Password</label>
+      <input type="password" class="form-control" id="inputPwd" placeholder="Password">
+    </div>
+  </form>
+</div>
+</div>
+
+-->
+<ng-container  *ngIf="true"> 
+
+<div class="container-fluid bg">
+  <div class="row">
+     <div class="col-sm-4 col-md-4 col-xs-12"></div>
+
+     <div class="col-sm-4 col-md-4 col-xs-12 mar">
+      <form class="form-container">
+        <h1 class="text-center">Login</h1>
+        <p class="text-center">to continue to<strong>T-Log</strong></p>
+        <div class="form-group">
+           <label for="inuserName" >Username</label>
+           <input type="text" class="form-control"  id="inputId" placeholder="Username">
+        </div>
+    
+        <div class="form-group">
+          <label for="inuserPwd">Password</label>
+          <input type="password" class="form-control" id="inputPwd" placeholder="Password">
+        </div>
+
+
+           <div class="signin text-right">
+             <a routerLink="/signup">Don't have an account? Click to Signup</a>
+           </div>
+
+
+        <button type="submit" class="btn  btn-block btn-warning">Submit</button>
+         <br>
+        <div class="forget text-center" data-toggle="modal" data-target="#mymod">
+          <a href="javascript:void(0)">Forget Password?</a>
+        </div>
+
+        <div class="modal fade" role="dialog" tabindex="-1" id="mymod" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="usname">Username:</label>
+                    <input type="text" [(ngModel)]="usrname" name="modal" class="form-control">
+                    
+                  </div>
+                  <p>Enter your username and click Submit, We will send the password 
+                    to your registered mail.
+                  </p>
+                  <div class="modal-footer">
+                    <button type="button" [disabled]="usrname.length>0?false:true" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                  </div>
+
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </div> 
+      </form>
+
+     </div>
+
+  </div>
+</div>
+</ng-container>
+<!--  Signup form starts-->
+
+

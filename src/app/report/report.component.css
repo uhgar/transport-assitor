@@ -1,0 +1,8 @@
+@import "~node_modules\bootstrap\dist\css\bootstrap.css";
+
+.design{
+    border:3px solid black;
+    margin-top:5vh;
+    padding:3% 5%;
+    
+}

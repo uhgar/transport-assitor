@@ -1,0 +1,136 @@
+<!-- logo space-->
+<div class="float-left">
+  <h1>
+    T-Log
+  </h1>
+</div>
+
+
+<!-- Name,Time,Date
+<div class="float-right name-design">
+  <p>Interglobe Aviations<br>
+     
+   {{date()}} |  {{time()}}</p>  
+     
+</div>
+-->
+
+
+<div class="dropdown show float-right btn-lg edit-style">
+  <button class="btn btn-secondary dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Interglobe Aviations<br>     
+           {{date()}} |  {{time()}}   
+       
+          
+  </button>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href='#'>Logout</a>
+    <a class="dropdown-item"  href="#">My Settings</a>
+    <a class="dropdown-item" href='#'>My License</a>
+  </div>
+</div>
+
+
+<br>
+<br>
+<hr>
+<br>
+
+<!-- Vertical menu bar-->
+
+<nav class='vert-style'>
+<ul class="nav flex-column custom-css  ">
+  <li class='nav-item   '>
+    <a class='nav-link' href='#'>My Business</a>
+  </li>
+
+  <li class='nav-item'>
+    <a class='nav-link' href='#'>My Garages</a>
+  </li>
+
+  <li class='nav-item'>
+    <a class='nav-link' href='#'>My Employees</a>
+  </li>
+
+  <li class='nav-item'>
+    <a class='nav-link' href='#'>Reports</a>
+  </li>
+
+  <li class='nav-item'>
+    <a class='nav-link' href='#'>Alerts & Notifications</a>
+  </li>
+</ul>
+</nav>
+
+
+
+<!-- Cards-->
+<div class="card-deck cards-design">
+    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">My Fleets</div>
+        <div class="card-body">
+          
+          <p class="card-text">
+            Bus         : 122<br>
+            Cars        : 20<br>
+            Lorry       : 80<br>
+            Heavy-Cargo : 10
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Alerts</div>
+          <div class="card-body">
+            
+            <p class="card-text">
+              FC Await  : 30<br>
+              Tax Await : 40<br>
+              Services Pending : 20
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">Warnings</div>
+            <div class="card-body">
+                <h5 class="card-title">Vehicles greater than 10 years</h5>
+                <p class="card-text">
+                    Bus         : 10<br>
+                    Cars        : 0<br>
+                    Lorry       : 0<br>
+                    Heavy-Cargo : 10
+                  </p>
+            </div>
+          </div>
+</div>
+
+<!--Scrolling bar-->
+
+<div class="scroll-edit" >
+  <div class="row ">
+    <div class="col-sm-2" style="max-width:10rem">
+      <div class='card text-white bg-primary'>
+        <div class="card-header">{{notimonth}}</div>
+        <div class="card-body">
+          <h3>{{notiday}}</h3>
+        </div>
+        <div class="card-footer">{{notiday2}}</div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 scroll-edit2" style="border:1px solid black">
+       
+            <marquee behaviour="scroll" direction="up" id="mymarquee" scrollamount="1" onmouseover="this.stop()" onmouseout="this.start()">
+                <p>* Meething with Auditors</p>  
+                <p>* Chennai garage visit</p> 
+                <p>* Meeting with Vendor</p>
+                <p>* Government Tender renewal</p>
+       
+             </marquee>
+        
+        
+    </div>
+  </div>
+</div>
